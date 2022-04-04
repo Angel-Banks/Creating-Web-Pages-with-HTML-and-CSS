@@ -83,6 +83,14 @@ body {
   transition: underline 500ms linear;
 }
 
+.nav-item2 a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  transition: underline 500ms linear;
+}
+
+
+
 .container {
   display: flex;
   flex-direction: column;
@@ -248,13 +256,18 @@ footer {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.2);
   height: 4rem;
+
 }
 
 footer p {
   font-size: 1.3rem;
   color: #00000;
-  margin-right: 100px;
+
 }
+
+
+
+
 
 @media screen and (min-width: 768px) {
 
@@ -263,7 +276,7 @@ footer p {
   .home-nav ul{
     width: 25%;
 
-    ;
+
   }
 
   .about-section {
